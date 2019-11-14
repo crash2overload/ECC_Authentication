@@ -25,14 +25,21 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    printf("Hallo");
+    printf("Hallo\n\n");
     
     Node Alice(192), Bob(192);
     Signcryption s_Alice(&Alice);
-    std::string message = "Hallo";
-    uint8_t msg[2] = {0x01,0x10};
-    s_Alice.signcrypt(Bob.get_publicKey(), &msg[0], 2);
+    Signcryption s_Bob(&Bob);
     
+    uint8_t msg[2] = {0x0};
+    s_Alice.signcrypt(Bob.get_publicKey(), &msg[0], 2);
+    s_Bob.Unsigncryption(Alice.get_publicKey(), s_Alice.r, s_Alice.s, &msg[0], 2);
+    
+    if(memcmp(s_Bob.r, s_Alice.r, 16) != 0){
+        printf("not");
+    } else {
+        printf("yes");
+    }
     //printf("%02x", Alice.get_SharedKey()[0]);
     
     return 0;

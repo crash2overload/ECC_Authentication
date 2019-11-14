@@ -7,11 +7,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/user/NetBeansProjects/Signcryption_test/main.cpp</file>
-            <file>file:/home/user/NetBeansProjects/Signcryption_test/Node.h</file>
-            <file>file:/home/user/NetBeansProjects/Signcryption_test/Signcryption.h</file>
-            <file>file:/home/user/NetBeansProjects/Signcryption_test/Signcryption.cpp</file>
-            <file>file:/home/user/NetBeansProjects/Signcryption_test/Node.cpp</file>
+            <file>file:/home/user/NetBeansProjects/ECC_Authentication/Signcryption/Signcryption.cpp</file>
+            <file>file:/home/user/NetBeansProjects/ECC_Authentication/Signcryption/main.cpp</file>
+            <file>file:/home/user/NetBeansProjects/ECC_Authentication/Signcryption/Signcryption.h</file>
+            <file>file:/home/user/NetBeansProjects/ECC_Authentication/Signcryption/Node.cpp</file>
         </group>
     </open-files>
 </project-private>

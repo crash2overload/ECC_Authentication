@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Signcryption_test
+PROJECTNAME=Signcryption
 
 # Active Configuration
 DEFAULTCONF=Debug

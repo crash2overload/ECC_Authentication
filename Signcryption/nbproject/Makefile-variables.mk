@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=signcryption_test
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/signcryption_test
+CND_ARTIFACT_NAME_Debug=signcryption
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/signcryption
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=signcryptiontest.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/signcryptiontest.tar
+CND_PACKAGE_NAME_Debug=signcryption.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/signcryption.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=signcryption_test
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/signcryption_test
+CND_ARTIFACT_NAME_Release=signcryption
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/signcryption
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=signcryptiontest.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/signcryptiontest.tar
+CND_PACKAGE_NAME_Release=signcryption.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/signcryption.tar
 #
 # include compiler specific variables
 #

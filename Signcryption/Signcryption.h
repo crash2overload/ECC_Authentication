@@ -14,6 +14,7 @@
 #include "uECC.h"
 #include <blake2.h>
 #include "Node.h"
+#include <cstring>
 
 #ifndef SIGNCRYPTION_H
 #define SIGNCRYPTION_H
@@ -24,12 +25,12 @@ public:
     Signcryption(const Signcryption& orig);
     virtual ~Signcryption();
     void signcrypt(uint8_t *publicKey, uint8_t *msg, uint8_t msg_len);
-    void Unsigncryption();
-private:
+    void Unsigncryption(uint8_t *publicKey, uint8_t *r, uint8_t*s, uint8_t *msg, uint8_t msg_len);
     uint8_t *msg;
     uint8_t msg_len;
     uint8_t *r;
     uint8_t *s;
+private:
     uint8_t *h_key;
     uint8_t *e_key;
     Node *node;
