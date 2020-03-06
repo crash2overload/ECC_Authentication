@@ -1,0 +1,100 @@
+#include <asm/types.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+//#include "fp.h"
+//#include "fp12.h"
+#include "efp.h"
+
+#define PREC 192;
+
+/*typedef struct {
+	__u32 *x0;
+}Fp;*/
+
+//typedef struct {
+//	Fp x0, x1;
+//}Fp2;
+
+//typedef struct {
+//	Fp2 x0, x1, x2;
+//}Fp6;
+
+//typedef struct {
+	//Fp6 x0, x1;
+//}Fp12;
+
+//Curve_params_t curve_bn = bn192;
+
+/***************** Funktions in Fp **********************/
+/*
+void Fp_init(Fp *A);
+void Fp_clear(Fp *A);
+void Fp_print(Fp *A);
+void Fp_inv(Fp *A);
+void Fp_copy(Fp *dest, Fp *src);
+void Fp_mul(Fp *res, Fp *A, Fp *B);
+void Fp_add(Fp *res, Fp *A, Fp *B);
+void Fp_sub(Fp *res, Fp *A, Fp *B);
+void Fp_exp(Fp *res, Fp *A, Fp *sk);
+*/
+
+
+/***************** Funktions in Fp2 **********************/
+/*
+void Fp2_init(Fp2 *A);
+void Fp2_clear(Fp2 *A);
+void Fp2_print(Fp2 *A);
+void Fp2_inv(Fp2 *A);
+void Fp2_copy(Fp2 *dest, Fp2 *src);
+void Fp2_mul(Fp2 *res, Fp2 *A, Fp2 *B);
+void Fp2_mul_basis(Fp2 *res, Fp2 *A);
+void Fp2_add(Fp2 *res, Fp2 *A, Fp2 *B);
+void Fp2_sub(Fp2 *res, Fp2 *A, Fp2 *B);
+void Fp2_exp(Fp2 *res, Fp2 *A, Fp2 *sk);
+*/
+
+/***************** Funktions in Fp6 **********************/
+
+//void Fp6_init(Fp6 *A);
+//void Fp6_clear(Fp6 *A);
+//void Fp6_print(Fp6 *A);
+//void Fp6_inv(Fp6 *A);
+//void Fp6_copy(Fp6 *dest, Fp6 *src);
+//void Fp6_mul(Fp6 *res, Fp6 *A, Fp6 *B);
+//void Fp6_mul_basis(Fp6 *res, Fp6 *A);
+//void Fp6_add(Fp6 *res, Fp6 *A, Fp6 *B);
+//void Fp6_sub(Fp6 *res, Fp6 *A, Fp6 *B);
+//void Fp6_exp(Fp6 *res, Fp6 *A, Fp6 *sk);
+
+
+/***************** Funktions in Fp12 **********************/
+
+//void Fp12_init(Fp12 *A);
+//void Fp12_clear(Fp12 *A);
+//void Fp12_print(Fp12 *A);
+//void Fp12_inv(Fp12 *A);
+//void Fp12_copy(Fp12 *dest, Fp12 *src);
+//void Fp12_mul(Fp12 *res, Fp12 *A, Fp12 *B);
+//void Fp12_add(Fp12 *res, Fp12 *A, Fp12 *B);
+//void Fp12_sub(Fp12 *res, Fp12 *A, Fp12 *B);
+//void Fp12_exp(Fp12 *res, Fp12 *A, Fp12 *sk);
+
+
+/**********************************************************/
+/*					Funktions on Kurve 					  */
+/**********************************************************/
+
+//typedef struct {
+	//Fp x;
+	//Fp y;
+	//Fp z;
+//}EFp;
+
+//void EFp_init(EFp *P);
+//void EFp_clear(EFp *P);
+//void EFp_print(EFp *P);
+//void EFp_get_random(EFp *P);
+//void EFp_add(EFp *res, EFp *P, EFp *Q);
+//void EFp_mul(Fp *sk, EFp *P);
+
