@@ -70,7 +70,7 @@ void sym_ate_paring(Fp12 *res, EFp *P, EFp *Q){
     Miller_ate(res, &PP, P);
     
     
-    Final_exp(res, res);
+    Final_exp(res);
     Fp12_print(res);
     /*printf("\n test2 \n");
     Miller_ate(res, Q, P);
