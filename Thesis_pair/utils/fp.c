@@ -3,7 +3,7 @@
 #include <string.h>
 
 #include "../include/fp.h"
-#include "../include/curves.h"
+//#include "../include/curves.h"
 
 /***************** Funktions in Fp **********************/
 
@@ -17,7 +17,7 @@ void Fp_clear(Fp *A){
 }
 
 void Fp_print(Fp *A){
-	gmp_printf("%Zd\n", A->x0);
+	gmp_printf("%Zd", A->x0);
 }
 
 void Fp_inv(Fp* res, Fp *A){

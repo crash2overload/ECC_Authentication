@@ -1,6 +1,7 @@
 #include <asm/types.h>
 #include <gmp.h>
 
+
 /****************** Tpyes *******************************/
 
 typedef struct {
@@ -26,3 +27,4 @@ void Fp_get_random(Fp *res);
 int  Fp_cmp_zero(Fp *A);
 int  Fp_cmp_one(Fp *A);
 mpz_t prime;
+

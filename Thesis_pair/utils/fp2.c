@@ -1,4 +1,5 @@
 #include "../include/fp2.h"
+#include <stdio.h>
 
 void Fp2_init(Fp2 *A){
 	Fp_init(&A->x0);
